@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ChatDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_label_username">用户名</string>
+    <string name="login_label_password">密码</string>
+    <string name="login_register_link">注册</string>
+    <string name="splash">开屏页</string>
+
+</resources>
