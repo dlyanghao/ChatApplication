@@ -56,6 +56,7 @@
             android:layout_below="@id/password_edit"
             android:layout_alignRight="@id/password_edit"
             android:layout_marginTop="10dp"
+            android:onClick="login"
             android:background="@drawable/login_button_bg"
             />
         
@@ -99,12 +100,18 @@
     <RelativeLayout 
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/text_assistant" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="没有账号?"
+            android:layout_marginLeft="15dp"/>
         <TextView 
             android:id="@+id/register_link"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/login_register_link"
-            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/text_assistant"
             android:textColor="#888"
             android:textColorLink="#FF0066CC"/>
 

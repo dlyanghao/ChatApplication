@@ -3,6 +3,7 @@ package com.yanghao.chatdemo.activity;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Window;
 
 import com.yanghao.chatdemo.R;
 
@@ -12,6 +13,7 @@ public class SplashActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.splash);
 		super.onCreate(savedInstanceState);
 	}
@@ -32,6 +34,7 @@ public class SplashActivity extends Activity {
 					}
 				}
 				startActivity(new Intent(SplashActivity.this,Login.class));
+				finish();
 			}
 		}).start();
 	}

@@ -8,5 +8,7 @@
     <string name="login_label_password">密码</string>
     <string name="login_register_link">注册</string>
     <string name="splash">开屏页</string>
+    <string name="User_name_cannot_be_empty">用户名不能为空</string>
+    <string name="Password_cannot_be_empty">密码不能为空</string>
 
 </resources>
